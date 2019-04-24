@@ -24,7 +24,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      vmImage: $(vmImageName)
+      name: default
       
     steps:
     - task: NodeTool@0
@@ -62,7 +62,7 @@ stages:
     displayName: Deploy
     environment: 'development'
     pool: 
-      vmImage: $(vmImageName)
+      name: default
     strategy:
       runOnce:
         deploy:
