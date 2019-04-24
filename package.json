@@ -1,1 +1,19 @@
-{}
+{
+  "name": "queue-trigger-function-nodejs",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "host.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajinkya599/queue-trigger-function-nodejs.git"
+  },
+  "author": "Ajinkya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajinkya599/queue-trigger-function-nodejs/issues"
+  },
+  "homepage": "https://github.com/ajinkya599/queue-trigger-function-nodejs#readme"
+}
